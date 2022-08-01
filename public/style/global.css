@@ -1,0 +1,77 @@
+:root {
+  --brand-color: #f58634;
+}
+
+.brand-color {
+  color: var(--brand-color);
+}
+.brand-bg-color {
+  background: var(--brand-color) !important;
+}
+.rm-border {
+  border: 0px !important;
+}
+.custom-mt-7 {
+  margin-top: 7rem;
+}
+.custom-mt-13 {
+  margin-top: 13rem;
+}
+
+.drawer {
+  position: fixed;
+  width: 100% !important;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2000;
+  top: 0;
+}
+
+.drawer .draw-content {
+  position: absolute;
+  height: 100vh;
+  width: 25rem;
+  z-index: 3000;
+  top: 0;
+  right: 0;
+}
+.draw-active {
+  right: 0;
+  transition: all 0.4s linear;
+}
+.draw-inactive {
+  right: -200%;
+  transition: all 0.4s linear;
+}
+.pointer {
+  cursor: pointer;
+}
+
+
+.counter {
+  width: 4rem;
+  height: 2rem;
+  text-align: center;
+  border: 0px;
+}
+
+.counter-button:nth-last-child(1) {
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  border: 0px;
+}
+.counter-button:nth-child(1) {
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  border: 0px;
+}
+
+.counter-button:hover {
+  background-color: #e6e6e6;
+}
+.counter-button:nth-last-child(1):active {
+  box-shadow: inset -4px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.counter-button:nth-child(1):active {
+  box-shadow: inset 4px 5px 10px rgba(0, 0, 0, 0.5);
+}
