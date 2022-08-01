@@ -2,7 +2,7 @@
 
 # Documentation
 
-Lifestore accessement - Kindly click [here](https://docs.rs/crate/crate-name/). to view the final result
+Lifestore accessement - Kindly click [here](https://lifestore-accessment.vercel.app/). to view the final result
 
 ### Packages
 	"@fortawesome/fontawesome-svg-core": "^6.1.2",
